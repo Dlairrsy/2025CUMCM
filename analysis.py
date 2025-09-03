@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
-# 设置中文字体
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 设置黑体或其他支持中文的字体
 plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
